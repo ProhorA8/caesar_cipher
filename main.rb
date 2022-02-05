@@ -4,7 +4,6 @@ class CaesarCipher
 
   def initialize
     check_input
-    read_file
     @result = receives_ciphertext
   end
 
@@ -27,6 +26,7 @@ class CaesarCipher
 
   # получает зашифрованый текст
   def receives_ciphertext
+    read_file
     offset = ARGV[1].to_i
     @file_text.chars.map do |letter|
       # h / H
