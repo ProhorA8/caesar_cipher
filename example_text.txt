@@ -1,1 +1,1 @@
-Hello word ... , this is ruby!
+Hello world ... , this is ruby!
